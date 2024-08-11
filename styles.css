@@ -1,44 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Basic styling for the body and container */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    background-image: url(https://tse4.mm.bing.net/th?id=OIP.Izy3ZgAA0egh3z6DSJvQBwHaDX&pid=Api&P=0&h=600);
+    line-height: 1.6;
     color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.8bQP-WF6Tc-b_BFe9vJ0tgHaEK&pid=Api&P=0&h=220);
 }
 
-.weather-container {
+.container1 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: #fff;
+
+
+
+}
+.container2{
+    color: #fff;
+}
+
+/* Header styling */
+header {
+    background: rgb(176, 173, 173);
+    color: #fff;
+    padding: 1rem 0;
     text-align: center;
-    background-color: #fff;
-    background-image: url(https://www.dailypioneer.com/uploads/2019/story/images/big/delhi-breaks-22-yr-record-of-highest-dec-rain-in-24-hour-2019-12-14.jpg);
+}
 
-    border-radius: 10px;
+header h1 {
+    margin-bottom: 0.5rem;
+    color: #f4f4f4;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+.p2{
+    color: #fff;
+}
+
+/* Section styling */
+section {
+    padding: 2rem 0;
+    
+}
+
+
+h2 {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.h4{
+    color: #fff;
+}
+/* Projects section */
+.project {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 400px;
-    width: 100%;
 }
 
-.weather-container h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
+/* Contact section */
+#contact a {
+    color: #333;
+    text-decoration: none;
 }
 
-.location h2 {
-    font-size: 28px;
-    margin: 0;
+#contact a:hover {
+    text-decoration: underline;
 }
 
-.location p {
-    font-size: 18px;
-    margin: 5px 0;
-}
-
-.weather-info p {
-    font-size: 22px;
-    margin: 10px 0;
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
 }
