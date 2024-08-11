@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.Izy3ZgAA0egh3z6DSJvQBwHaDX&pid=Api&P=0&h=600);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather-container {
+    text-align: center;
+    background-color: #fff;
+    background-image: url(https://www.dailypioneer.com/uploads/2019/story/images/big/delhi-breaks-22-yr-record-of-highest-dec-rain-in-24-hour-2019-12-14.jpg);
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.weather-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.location h2 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.location p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.weather-info p {
+    font-size: 22px;
+    margin: 10px 0;
+}
